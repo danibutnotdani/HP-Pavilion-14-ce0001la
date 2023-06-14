@@ -290,6 +290,23 @@
 				<key>layout-id</key>
 				<data>AQAAAA==</data>
 			</dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key>AAPL,ig-platform-id</key>
+				<data>AADAhw==</data>
+				<key>framebuffer-patch-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-stolenmem</key>
+				<data>AAAwAQ==</data>
+				<key>framebuffer-fbmem</key>
+				<data>AACQAA==</data>
+				<key>device-id</key>
+				<data>FlkAAA==</data>
+				<key>New String</key>
+				<string></string>
+				<key>New String - 2</key>
+				<string></string>
+			</dict>
 		</dict>
 		<key>Delete</key>
 		<dict/>
