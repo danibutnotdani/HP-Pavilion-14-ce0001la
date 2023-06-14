@@ -409,13 +409,13 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>VoodooPS2Controller.kext</string>
+				<string>VoodooInput.kext</string>
 				<key>Comment</key>
-				<string>VoodooPS2Controller.kext</string>
+				<string>VoodooInput.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VoodooPS2Controller</string>
+				<string>Contents/MacOS/VoodooInput</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -427,13 +427,13 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>VoodooSMBus.kext</string>
+				<string>VoodooPS2Controller.kext</string>
 				<key>Comment</key>
-				<string>VoodooSMBus.kext</string>
+				<string>VoodooPS2Controller.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VoodooSMBus</string>
+				<string>Contents/MacOS/VoodooPS2Controller</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -463,11 +463,47 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+				<string>ApplePS2SmartTouchPad.kext/Contents/PlugIns/ApplePS2Controller.kext</string>
+				<key>Comment</key>
+				<string>ApplePS2Controller.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/ApplePS2Controller</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>ApplePS2SmartTouchPad.kext/Contents/PlugIns/ApplePS2Keyboard.kext</string>
+				<key>Comment</key>
+				<string>ApplePS2Keyboard.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/ApplePS2Keyboard</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext</string>
 				<key>Comment</key>
 				<string>VoodooInput.kext</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooInput</string>
 				<key>MaxKernel</key>
@@ -542,6 +578,24 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AppleALC</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>ApplePS2SmartTouchPad.kext</string>
+				<key>Comment</key>
+				<string>ApplePS2SmartTouchPad.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/ApplePS2SmartTouchPad</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
